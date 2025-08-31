@@ -148,11 +148,39 @@ Default map center is set to Philippines:
 
 ## 🚀 Deployment
 
-### Development
+### GitHub Pages (Recommended)
 
+This project is configured for automatic GitHub Pages deployment:
+
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin main
+   ```
+
+2. **Enable GitHub Pages**
+   - Go to your repository settings
+   - Navigate to "Pages" section
+   - Select "GitHub Actions" as the source
+   - The site will automatically deploy on every push to main
+
+3. **Access your site**
+   - Your app will be available at: `https://yourusername.github.io/leaflet-openfreemap-3d-demo/`
+
+### Local Development
+
+### Local Development
 ```bash
 npm run dev
 ```
+
+### Production Build
+```bash
+npm run build
+```
+
+### Alternative: Deploy to Vercel
 
 ### Production Build
 
